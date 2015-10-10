@@ -2394,16 +2394,9 @@ padding: 8px 15px;
     width: 100%;
     height: 100%;
 }
-.parallax-overlay{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-     background: url("../images/banner/overaly.png")repeat; 
-}
 .video-background{
-    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
 }
 .video-background-container {
     position: absolute;
@@ -2413,6 +2406,7 @@ padding: 8px 15px;
     right: 0;
     height: 100%;
     width: 100%;
+
 }
 section{
     position: relative;
